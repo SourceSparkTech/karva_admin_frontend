@@ -1,0 +1,41 @@
+
+/* Pop Up Animation */
+@keyframes modalOverlayAnimation {
+  from {
+    background-color: transparent;
+  }
+
+  to {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+@keyframes modalOverlayCloseAnimation {
+  from {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+  to {
+    background-color: transparent;
+  }
+}
+
+@keyframes modalDialogAnimation {
+  from {
+    transform: scale(0.8);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes modalDialogCloseAnimation {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(0.8);
+  }
+}
